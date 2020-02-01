@@ -1,0 +1,260 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: 'Raleway';
+}
+
+body {
+	background:#f2f4f8;
+
+
+
+}
+
+.menu {
+    margin-left:67%;
+    margin-top:30px;
+	width:500px;
+	font-family:sans-serif;
+}
+
+ul, ol {
+
+		list-style:none;
+}
+
+.menu li a {
+
+ background-color:black;
+ color:white;
+ text-decoration:none; 
+ padding:30px 20px;
+ display:block;
+ cursor:pointer;
+
+
+
+
+}
+
+.menu > li {
+	float:left;
+}
+
+.menu li a:hover {
+
+	background-color:#434343;
+}
+
+.menu li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	cursor:pointer;
+	z-index:80;
+
+
+
+}
+
+.menu li:hover > ul{
+    display:block;
+
+}
+
+.menu li {
+
+
+}
+
+header {
+
+	background:black;
+	height: 80px;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.logo {
+
+	position:absolute;
+	bottom: 810px;
+	left: 70px;
+
+
+}
+
+.Mono {
+
+	position:absolute;
+	left:  44%;
+	top: 20%;
+
+
+}
+
+.Estropeado {
+
+	position:absolute;
+	left:  36%;
+	top: 30%;
+
+}
+
+.titulo {
+
+	position:absolute;
+	left:  18%;
+	top: 16%;
+	font-size: 4.3vh;
+
+}
+
+.mantenimiento {
+
+	position:absolute;
+	left:  38%;
+	top: 58%;
+
+
+}
+
+.parrafo {
+
+	position:absolute;
+	left:  43%;
+	top: 60%;
+
+
+}
+
+.seguridad {
+
+	position:absolute;
+	left:  37%;
+	top: 70%;
+
+}
+
+.texto {
+
+	position:absolute;
+	left:  43%;
+	top: 75%;
+
+}
+
+.ubicacion {
+
+	position:absolute;
+	left:  77%;
+	top:  35%;
+font-size: 3.3vh;
+
+
+}
+
+
+.mapa {
+
+
+	position:absolute;
+	left:  69%;
+	top: 40%;
+ 	border-radius:;
+
+}
+
+.telefono {
+
+	position:absolute;
+	left:  69%;
+	top: 76%;
+ 	border-radius:;
+
+}
+
+.jum { 
+
+	position:absolute;
+	left:  72%;
+	top: 78%;
+ 	border-radius:;
+	font-size: 2.3vh;
+ }
+
+ .numero {
+	position:absolute;
+
+ 	top:2%;
+ }
+
+
+.deslizar {
+
+		width: 500px;
+		height: 300px;
+		margin: auto;
+		list-style:none;
+		padding:0;
+		display:flex; 
+		justify-content: center;
+		align-items: flex-end;
+		position: relative;
+		right: 	32%;	
+		margin-top: 16%;
+}
+
+.deslizar img {
+	position:absolute;
+	bottom: 40px;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition: all 0.7s;
+}
+
+.deslizar input[type ="radio"] {
+
+	display: none;
+}
+
+.deslizar input[type ="radio"]:checked ~ img {
+
+opacity:1;
+
+}
+
+.deslizar input[type ="radio"] + label {
+
+	position:relative;
+	z-index:50;
+	margin:10px;
+	display: block;
+ 	width: 20px;
+ 	height: 20px;
+ 	background:white;
+ 	border-radius: 50%;
+	border:  2px solid black;
+	cursor:pointer;
+
+}
+
+.deslizar input[type ="radio"]:checked + label {
+
+background:black;
+border: 2px solid white;
+
+}
+
+.titulo2 {
+
+	position:absolute;
+	top: 35%;
+	left:4%;
+	font-size: 3.3vh;
+}
+
+
